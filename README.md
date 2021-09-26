@@ -1,36 +1,19 @@
-# TypeScript Example
+# Instructions
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+This application is a based on Async Storage to cache data and fetch it again from API after a specific time.
 
-```sh
-npx create-react-native-app -t with-typescript
-```
+### Expo
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+Through this [link](https://expo.io/@fadhlaoui/react-native-caching-mechanism), you can run the expo link in Expo GO app.
 
-## 🚀 How to use
+# comments
 
-#### Creating a new project
+The **Async Storage** library used to persist data.  
+The **react-native-svg** library used to create SVG file.  
+The **react-test-renderer** library used to build tests.  
+The **react-native-responsive-screen** library used to have responsive UI in different devices.
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+# remarks
 
-### Adding TypeScript to existing projects
-
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `expo start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
-
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+Project build with React native && Expo && TypeScript.  
+You can find tests under **tests** folder, tests build with jest framework.

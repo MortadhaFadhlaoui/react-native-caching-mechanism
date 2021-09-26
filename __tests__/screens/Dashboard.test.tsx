@@ -1,10 +1,7 @@
-import React from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { User } from "../../src/models/User";
 import { getData, storeData } from "../../src/shared/DeviceStorage";
 import { hoursWithinDates } from "../../src/shared/GlobalService";
-import renderer from "react-test-renderer";
-import Dashboard from "../../src/screens/Dashboard";
 
 const users: User[] = [
   {

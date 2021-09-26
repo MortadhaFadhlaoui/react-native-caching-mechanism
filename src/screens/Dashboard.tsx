@@ -57,7 +57,6 @@ const Dashboard = () => {
   };
 
   const fetchData = (date: Date = null) => {
-    console.log(date);
     // fetch Data from api every hour
     if (!date || hoursWithinDates(new Date(), date) > 1) {
       fetchUsers();
