@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should show new Item 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      false,
+      Array [
+        Object {
+          "borderBottomWidth": 0.5,
+          "borderStyle": "solid",
+          "minHeight": 48,
+          "paddingHorizontal": 16,
+        },
+        Object {
+          "borderBottomColor": "rgba(0, 0, 0, 0.12)",
+        },
+        Object {
+          "height": 133.5,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            },
+            undefined,
+            Object {
+              "justifyContent": "center",
+              "paddingTop": 26.5,
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            Object {
+              "textAlign": "left",
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={84}
+          bbWidth={100}
+          focusable={false}
+          height={84}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "flex": 0,
+                "height": 84,
+                "width": 100,
+              },
+            ]
+          }
+          vbHeight={100}
+          vbWidth={100}
+          width={100}
+        >
+          <RNSVGGroup>
+            <RNSVGCircle
+              cx={42}
+              cy={42}
+              fill={4285222631}
+              propList={
+                Array [
+                  "fill",
+                  "strokeDasharray",
+                ]
+              }
+              r={29.5}
+              strokeDasharray={
+                Array [
+                  "185.3539665617978",
+                  "185.3539665617978",
+                ]
+              }
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4294967295}
+              font={
+                Object {
+                  "fontSize": "20",
+                  "textAnchor": "middle",
+                }
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4294967295}
+              x={
+                Array [
+                  42,
+                ]
+              }
+              y={
+                Array [
+                  48,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="N"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            Object {
+              "textAlign": "left",
+            },
+            undefined,
+          ]
+        }
+      >
+        Name
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            },
+            Object {
+              "justifyContent": "flex-end",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            Object {
+              "textAlign": "left",
+            },
+            undefined,
+          ]
+        }
+      >
+        Age
+      </Text>
+    </View>
+  </View>
+</View>
+`;

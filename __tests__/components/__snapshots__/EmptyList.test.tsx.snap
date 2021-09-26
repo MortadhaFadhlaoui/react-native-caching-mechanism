@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyList should show new EmptyList 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#000000",
+        "fontFamily": "System",
+        "fontWeight": "400",
+      },
+      Object {
+        "textAlign": "left",
+      },
+      Object {
+        "color": "#87CEEB",
+        "textTransform": "capitalize",
+      },
+    ]
+  }
+>
+  No Data available
+</Text>
+`;
